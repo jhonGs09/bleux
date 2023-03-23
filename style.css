@@ -455,6 +455,7 @@ footer {
 
     .principal2 {
         display: flex;
+        height: 100vh;
     }
 
     .pc {
@@ -590,6 +591,22 @@ footer {
         .menu li a{
             color: white;
           
+        }
+        .sec3{
+            display: flex;
+           
+            width: 100%;
+            height: 300vh;
+        }
+        .ofertas{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .txt{
+            margin-left: 30;
         }
 
     }
