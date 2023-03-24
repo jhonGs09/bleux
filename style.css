@@ -160,7 +160,7 @@ ul li a button {
 .principal2 {
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--my-backgroundcolor);
+    background-color: white;
 
 }
 
@@ -657,6 +657,7 @@ footer {
 
     .principal2{
         height: 45vh;
+
     }
 
     .sec3{
