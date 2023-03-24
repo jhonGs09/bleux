@@ -457,6 +457,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     height: 70px;
+    background-color: white;
 }
 
 .txt {
@@ -659,7 +660,7 @@ footer {
     }
 
     .sec3{
-        height: 270vh;
+        height: 250vh;
     }
 
     .oferta1{
