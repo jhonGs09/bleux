@@ -660,8 +660,12 @@ footer {
 
     .oferta1{
         height: 55vh;
-        width: 45vh;
+        width: 43vh;
 
+    }
+
+    .precio{
+        width: 43vh;
     }
 
     .txt1{
