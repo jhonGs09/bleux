@@ -639,3 +639,20 @@ footer {
     }
 
 }
+
+@media screen and (max-width: 470px){
+
+
+    .menu{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sec3{
+        height: 350vh;
+    }
+
+
+
+}
