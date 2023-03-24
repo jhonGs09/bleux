@@ -654,11 +654,25 @@ footer {
         display: none;
     }
 
+    .principal2{
+        height: 60vh;
+    }
+
     .sec3{
-        height: 350vh;
+        height: 330vh;
     }
 
     .oferta1{
+        height: 55vh;
+        width: 43vh;
+
+    }
+    .oferta2{
+        height: 55vh;
+        width: 43vh;
+
+    }
+    .oferta3{
         height: 55vh;
         width: 43vh;
 
