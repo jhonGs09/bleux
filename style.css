@@ -659,12 +659,13 @@ footer {
     }
 
     .oferta1{
-        height: 60vh;
+        height: 55vh;
+        width: 45vh;
 
     }
 
     .txt1{
-        width: 210px;
+        width: 230px;
     }
 
 
