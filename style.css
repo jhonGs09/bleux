@@ -257,6 +257,7 @@ ul li a button {
 
 .text3 {
     width: 80%;
+    height: 100px;
 }
 
 .text3 h1 {
@@ -286,7 +287,7 @@ ul li a button {
     font-size: 28px;
     background-color: var(--my-backgroundcolor);
     width: 40vh;
-    height: 50px;;
+    height: 50px;
 
 }
 
@@ -300,6 +301,7 @@ ul li a button {
 .logoof {
     width: 50px;
     height: 50px;
+    
 }
 
 .tituloof1{
@@ -310,21 +312,59 @@ ul li a button {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
+    height: 65vh;
     width: 40vh;
     border-radius: 5px;
     background-color: white;
+}
+.contenido1{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 50px;
+    color: black;
+    text-align: center;
+}
+
+.oferta1 li{
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px;
+    text-align: center;
+    text-align: justify;
+    float: left;
+    
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    text-align: justify;
 }
 
 .oferta1 h2{
     color: rgb(240, 86, 111);
 }
 
+.txt1{
+    color: black;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.boton1{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    background: linear-gradient(to right, rgb(172, 67, 221) 100%, rgb(33, 83, 248));
+}
+
 .oferta2 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
+    height: 65vh;
     width: 40vh;
     margin: 0px 50px;
     border-radius: 5px;
@@ -335,19 +375,83 @@ ul li a button {
     color: #2e2550;
 }
 
+.contenido2{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 50px;
+    color: black;
+    text-align: center;
+}
+
+.oferta2 li{
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px;
+    text-align: center;
+    text-align: justify;
+    float: left;
+    
+}
+
+.txt1{
+    color: black;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.boton2{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    background-color: #2e2550;
+}
+
 .oferta3 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
+    height: 65vh;
     width: 40vh;
     border-radius: 5px;
     background-color: white;
 }
 
+.contenido3{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    height: 50px;
+    color: black;
+    text-align: center;
+}
+
+.oferta3 li{
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px;
+    text-align: center;
+    text-align: justify;
+    float: left;
+    
+}
+
+.boton3{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    background-color: #2e2550;
+}
+
+
 .oferta3 h2{
     color: #2e2550;
 }
+
 
 footer {
     display: flex;
@@ -377,23 +481,42 @@ footer {
 }
 
 
-@media screen and (max-width: 1366px) {
-    #menu-toggle {
-        display: none;
+@media screen and (max-width: 1240px) {
+
+
+    .oferta1{
+        height: 90vh;
+        width: 50vh;
+    }
+    .oferta2{
+        height: 90vh;
+        width: 50vh;
+    }
+    .oferta3{
+        height: 90vh;
+        width: 50vh;
     }
 
-    .menu-button-container {
-        display: none;
+    .precio{
+        width: 50vh;
+    }
+   
+    .sec3{
+        height: 150vh;
     }
 
-    .menu-button {
-        display: none;
+    .txt3{
+        height: 100px;
+        align-items: center;
     }
+
 
 }
 
 @media screen and (max-width: 992px) {
 
+  
+    
     .texttop{
         display: none;
     }
@@ -402,20 +525,25 @@ footer {
         width: 85%;
     }
 
-    .sec3{
-        justify-content: space-around;
-    }
     .burger {
         display: none;
     }
 
     .sec3{
-        height: 100vh;
+        height: 130vh;
+        justify-content: space-around;
+    }
+
+    .txt{
+        margin-left: 0;
+        width: 500px;
     }
 
 }
 
 @media screen and (max-width: 768px) {
+
+    
 
     .telefono {
         display: none;
@@ -455,7 +583,7 @@ footer {
 
     .principal2 {
         display: flex;
-        height: 100vh;
+        height: 70vh;
     }
 
     .pc {
@@ -470,144 +598,44 @@ footer {
         width: 70%;
     }
 
-    .top-nav {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        background-color: rgba(30, 23, 47, 255);
-        color: #FFF;
-        height: 50px;
-        padding: 1em;
+    .txt{
+        margin-left: 0;
+        width: 500px;
     }
+   
 
-    .menu {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
+    
+}
 
-    .menu>li {
-        margin: 0 1rem;
-        overflow: hidden;
-    }
+@media screen and (max-width: 690px){
 
-    .menu-button-container {
+   
+
+    .top-nav img {
         display: none;
-        height: 100%;
-        width: 30px;
-        cursor: pointer;
-        flex-direction: column;
+    }
+
+    .top-nav{
+        display: flex;
         justify-content: center;
+    }
+
+    .sec3{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 300vh;
+    }
+
+    .ofertas{
+        flex-direction: column;
         align-items: center;
+        justify-content: space-around;
     }
 
-    #menu-toggle {
-        display: none;
+    .txt{
+        margin-left: 0;
+        width: 500px;
     }
 
-    .menu-button,
-    .menu-button::before,
-    .menu-button::after {
-        display: block;
-        background-color: #fff;
-        position: absolute;
-        height: 4px;
-        width: 30px;
-        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        border-radius: 2px;
-    }
-
-    .menu-button::before {
-        content: "";
-        margin-top: -8px;
-    }
-
-    .menu-button::after {
-        content: "";
-        margin-top: 8px;
-    }
-
-    #menu-toggle:checked+.menu-button-container .menu-button::before {
-        margin-top: 0px;
-        transform: rotate(405deg);
-    }
-
-    #menu-toggle:checked+.menu-button-container .menu-button {
-        background: rgba(255, 255, 255, 0);
-    }
-
-    #menu-toggle:checked+.menu-button-container .menu-button::after {
-        margin-top: 0px;
-        transform: rotate(-405deg);
-    }
-
-    @media (max-width: 768px) {
-        .menu-button-container {
-            display: flex;
-        }
-
-        .menu {
-            position: absolute;
-            top: 0;
-            margin-top: 82px;
-            left: 0;
-            flex-direction: column;
-            width: 100%;
-            align-items: end;
-        }
-
-        #menu-toggle~.menu li {
-            height: 0;
-            margin: 0;
-            padding: 0;
-            border: 0;
-            transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        }
-
-        #menu-toggle:checked~.menu li {
-            /* border: 1px solid #3333336e; */
-            height: 2.5em;
-            padding: 0.5em;
-            transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        }
-
-        .menu>li {
-            display: flex;
-            justify-content: center;
-            margin: 0;
-            padding: 0.5em 0;
-            width: 20%;
-            color: white;
-            background-color: rgba(30, 23, 47, 255);
-        }
-
-        .menu>li:not(:last-child) {
-            border-bottom: 1px solid #444;
-        }
-
-        .menu li a{
-            color: white;
-          
-        }
-        .sec3{
-            display: flex;
-           
-            width: 100%;
-            height: 300vh;
-        }
-        .ofertas{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        .txt{
-            margin-left: 30;
-        }
-
-    }
 }
